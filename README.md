@@ -106,11 +106,14 @@ http://thejackalofjavascript.com/raspberry-pi-node-js-led-emit-morse-code/
         8.1 Use this: https://github.com/ethereum/mist/releases  
         
         8.2 On contract tab, load contract from ethtest.js.  
-              Using the existing contract this address will be: 0x9535eb707582edb3317dfdcdb751ce41865005fc 
+              Using the existing contract this address will be: 0x9535eb707582edb3317dfdcdb751ce41865005fc (Note: Ropsten testnet address)
               If you deployed your own contract, then use that address.
+              The ABI you will need to insert into mist is located in the "blink.js" file.
               
         8.3 Interact with the contract through the wallet by using set function in bottom right of window and set an integer value. 
         
-        8.4 sign the transaction (currently costs around 0.0012 ether) and send it off.
+        8.4 Sign the transaction (currently costs around 0.0012 ether) and send it off.
 
-        8.5 2 blocks later, you should have a blinking led assuming step 6 worked for you.  Console window of nodejs ethtest.js should also output a blink message.                 
+        8.5 2 blocks later, you should have a blinking led assuming step 6 worked for you.  Console window of nodejs ethtest.js should also output a blink message. 
+
+        8.6 Visit etherscan.io or testnet.etherscan.io to view your transaction in the blockchain.               
